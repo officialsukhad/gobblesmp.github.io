@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GobbleSMP - Staff</title>
+  <link rel="icon" type="image/png" href="server-icon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom right, #4b2a00, #ffa600);
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #2b1800, #b56c00);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #ffcc00;
+      text-shadow: 0 0 10px #ffcc00;
+    }
+    .nav-buttons a {
+      text-decoration: none;
+      color: black;
+      background-color: #ffcc00;
+      border-radius: 5px;
+      padding: 8px 16px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    h1 {
+      margin-top: 2rem;
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+    }
+    .staff-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 2rem;
+    }
+    .staff-card {
+      background-color: #8a3f00;
+      border-radius: 15px;
+      padding: 1.5rem;
+      width: 220px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .staff-card:hover {
+      transform: scale(1.05);
+    }
+    .staff-card img {
+      width: 96px;
+      height: 96px;
+      border-radius: 8px;
+    }
+    .staff-name {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .staff-role {
+      font-size: 1rem;
+      color: #ffe180;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #ffecb3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-title">GobbleSMP</div>
+    <div class="nav-buttons">
+      <a href="index.html">Home</a>
+    </div>
+  </header>
+
+  <h1>Meet the Staff</h1>
+
+  <div class="staff-container">
+    <div class="staff-card">
+      <img src="https://mineskin.eu/helm/DarkChocoChip/96.png" alt="Owner">
+      <div class="staff-name">Nischay (NiXcHay)</div>
+      <div class="staff-role">Owner</div>
+    </div>
+    <div class="staff-card">
+      <img src="https://mineskin.eu/helm/Jeb_/96.png" alt="Admin">
+      <div class="staff-name">Sukhad (DarkChocoChip)</div>
+      <div class="staff-role">Sys Admin</div>
+    </div>
+    <!-- <div class="staff-card">
+      <img src="https://mineskin.eu/helm/Dinnerbone/96.png" alt="Moderator">
+      <div class="staff-name">Username_3</div>
+      <div class="staff-role">Moderator</div>
+    </div> -->
+  </div>
+
+  <footer>
+    © 2025 GobbleSMP. All rights reserved.
+  </footer>
+
+</body>
+</html>
